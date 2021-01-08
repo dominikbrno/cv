@@ -32,7 +32,7 @@
 % param 1: text
 % param 2: width in cm or pt, em ...
 % param 3: color
-\newcommand{\legend}[3]{\parbox[t]{#2}{\textcolor{#3}{\rule{#2}{4pt}}\\#1}}
+ \newcommand{\legend}[3]{\parbox[t]{#2}{\textcolor{#3}{\rule{#2}{4pt}}\\#1}}
 
 % define global counters
 \newcounter{yearcount}
@@ -49,12 +49,12 @@
 % param 3: overall width
 \newenvironment{cvtimeline}[3]{
 
-	\newcommand{\cvcategory}[2]{
-		\node[label=\mbox{\colorbox{##1}{\strut\hspace{2pt}}\colorbox{white}{\textcolor{textcol}{##2}}}] at (0,-5) {}; %start year
-	}
+	% \newcommand{\cvcategory}[2]{
+	% 	\node[label=\mbox{\colorbox{##1}{\strut\hspace{2pt}}\colorbox{white}{\textcolor{textcol}{##2}}}] at (0,-5) {}; %start year
+	% }
 
-	\newcommand{\bxwidth}{4.5}
-	\newcommand{\bxheight}{2}
+	% \newcommand{\bxwidth}{4.5}
+	% \newcommand{\bxheight}{2}
 
 
 	% creates a stretched box as cv entry headline followed by two paragraphs about 
@@ -80,9 +80,9 @@
 						\pgfmathparse{0.5*\endexp+0.5*\startexp}
 						\let\midexp\pgfmathresult
 
-						\draw[draw=##6, line width=2pt] (0.07, \startexp) -- (1,\startexp);
+						\draw[draw=##6, line width=2pt] (0.06, \startexp) -- (1,\startexp);
 
-						\node[label={[align=left, label distance=2.5]0:\colorbox{##6}{\strut}\colorbox{bgcol}{\textcolor{gray}{##7}\hspace{3pt}\textcolor{black}{##3}}\hspace{3pt}\textcolor{black}{##4} \ifthenelse{\equal{##5}{}}{}{\\ \colorbox{##6}{\strut}\colorbox{bgcol}{\textcolor{black}{##5}}}}] at (0.5, \startexp) {};
+						\node[label={[align=left, label distance=2.5]0:\colorbox{##6}{\strut}\colorbox{bgcol}{\textcolor{gray}{##7}\hspace{0pt}\textcolor{black}{##3}}\hspace{0pt}\textcolor{black}{##4} \ifthenelse{\equal{##5}{}}{}{\\ \colorbox{##6}{\strut}\colorbox{bgcol}{\textcolor{black}{##5}}}}] at (0.5, \startexp) {};
 
 						
 					}
