@@ -1,3 +1,14 @@
+
+% TODO - remove areas of interest
+%      - maybe add section - what is important for me
+%      - add highlight section project items
+%
+%
+%
+
+
+
+
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 %	The MIT License (MIT)
 %
@@ -341,12 +352,12 @@
 	}&
 	\hspace{5cm}
 	\parbox{0.3\textwidth}{
-	\icontext{MapMarker}{12}{Brno, Czechia}\\
-	\icontext{Linkedin}{12}{\href{www.linkedin.com/in/dominiksteinhauser-63a60674}{Dominik Steinhauser}}\\
-	\icontext{Send}{12}{\href{mailto:dominik.steinhauser@seznam.cz}{dominik.steinhauser@seznam.cz}}\\
-	\icontext{MobilePhone}{12}{+420 778 031 466}\\
+		\icontext{MapMarker}{12}{Brno, Czechia}\\
+		\icontext{Linkedin}{12}{\href{www.linkedin.com/in/dominiksteinhauser-63a60674}{Dominik Steinhauser}}\\
+		\icontext{Send}{12}{\href{mailto:dominik.steinhauser@seznam.cz}{dominik.steinhauser@seznam.cz}}\\
+		\icontext{MobilePhone}{12}{+420 778 031 466}\\
 	}
-
+	
 \end{tabular*}
 
 % manage space by reducing font size
@@ -356,66 +367,77 @@
 
 
 \begin{minipage}{0.59\textwidth}
-
-%----------------------------------------------------------------------------------------
-%	FACTS
-%----------------------------------------------------------------------------------------
-%TODO maybe section what am I loking for?
+	
+	%----------------------------------------------------------------------------------------
+	%	FACTS
+	%----------------------------------------------------------------------------------------
+	%TODO maybe section what am I loking for?
 	\mbox{
 		\parbox[c][3cm][c]{0.29\textwidth}{
-		%\textcolor{textcol}{}
-		\includegraphics[scale=0.23]{dominik.png}
+			\includegraphics[scale=0.23]{dominik.png}
 		}
 		\hspace{10pt}
 		\parbox[c][3cm][c]{0.32\textwidth}{
 			\begin{center}
-			\factbubble{\huge{\textcolor{sectcol}{\textbf{Ing.}}}\\\small{\textcolor{sectcol}{\textbf{FIT VUT}}}}{1}{maincol}{sectcol}{thirdcol}\\
-			\textcolor{textcol}{\textbf{Brno University of Technologies}}
+				\factbubble{\huge{\textcolor{sectcol}{\textbf{Ing.}}}\\\small{\textcolor{sectcol}{\textbf{FIT VUT}}}}{1}{maincol}{sectcol}{thirdcol}\\
+				\textcolor{textcol}{\textbf{Brno University of Technologies}}
 			\end{center}
 		}
 		\hspace{10pt}
 		\parbox[c][3cm][c]{0.29\textwidth}{
-		\textcolor{textcol}{ I am  enthusiatist for AI and computer vision developer always looking for new chalanges. }
+			\textcolor{textcol}{ I am  enthusiatist for AI and computer vision developer always looking for new chalanges. }
 		}
 	}
-	\vspace{34pt}
-
-%----------------------------------------------------------------------------------------
-%	AREAS OF EXPERTISE
-%----------------------------------------------------------------------------------------
-
-	%\cvsect{Areas of interest}{0.49}{thirdcol}{textcol}\\[4pt]
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	AREAS OF EXPERTISE
+	%----------------------------------------------------------------------------------------
+	
+	%\cvsect{Areas of interest}{0.29}{thirdcol}{textcol}\\[4pt]
 	\mbox{
-		
-		% TEXT BOX
-		\parbox[b][150pt][c]{0.35\textwidth}{
-			%\textcolor{textcol}{The biggest part I contribute to my work is in the area of Software Engineering.}\\
-		
+		\parbox[t][60pt][c]{0.35\textwidth}{		
 			% LANGUAGES
 			\cvsect{Foreign languages}{0.49}{thirdcol}{textcol}\\[4pt]
 			\icontext{Language}{12}{\colorbox{maincol}{English (B2)}}\\
-			\icontext{Language}{12}{\colorbox{maincol}{Spanish (B2)}}\\
+			\icontext{Language}{12}{\colorbox{maincol}{Spanish (C1)}}\\
 			\icontext{Language}{12}{\colorbox{maincol}{German (B1)}}\\
 		}
-
+		
+		\begin{minipage}{0.05\textwidth}
+			\begin{center}
+				\begin{tikzpicture}
+					\draw[draw=sectcol,dashed, opacity=0.5] (0,-4) -- (0,0);
+				\end{tikzpicture}
+			\end{center}
+		\end{minipage}
+		
+		\parbox[t][120pt][b]{0.45\textwidth}{
+			\textcolor{thirdcol}{\hrule}
+			\colorbox{thirdcol}{ {\cvsection{Areas of interest}{#4}}}
+			\begin{piechart}{360}{2}{bgcol}{textcol}{sectcol}
+				\slice{30}{Backend}{maincol}
+				\slice{15}{Image processing}{thirdcol}
+				\slice{35}{Machine learning}{fourthcol}
+				\slice{20}{Frontend}{fifthcol}
+								
+			\end{piechart}\\
+		}
+				
+		
 		% PIE CHART	
-		\begin{piechart}{360}{2}{bgcol}{textcol}{sectcol}
-			\slice{30}{Backend}{maincol}
-			\slice{15}{Image processing}{thirdcol}
-			\slice{35}{Machine learning}{fourthcol}
-			\slice{20}{Frontend}{fifthcol}
-			
-		\end{piechart}\\
+				
 	}
 	\begin{center}
-	\begin{tikzpicture}
-		\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
-	\end{tikzpicture}
+		\begin{tikzpicture}
+			\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
+		\end{tikzpicture}
 	\end{center}
-
+	\vspace{0pt}
+	
 	% BAR CHART
 	\cvsect{Languages and technology}{0.49}{thirdcol}{textcol}\\[4pt]
-	\mbox{\hspace{-14pt}
+	\mbox{\hspace{-24pt}
 		\begin{barchart}{10}{5.5}{sectcol}{textcol}{sectcol}{maincol}{secondcol}{thirdcol}
 			\baritem{90}{Python}{0}{0}{80}
 			\baritem{90}{React.js}{0}{0}{60}
@@ -428,43 +450,43 @@
 			\baritem{75}{Git}{0}{0}{80}
 		\end{barchart}
 		\hspace{10pt}
-
+		
 		% TEXTBOX
 		\parbox[b][130pt][c]{0.4\textwidth}{\textcolor{textcol}{I like to work in agile teams following IT development best practices like clean code, code reviews, testable code etc. allowing as to feel productive and make a positive impact. \\ \\ My biggest joy in programming is refactoring and removing old unused code.}}
 	}
-
-	\begin{center}
-	\begin{tikzpicture}
-		\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
-	\end{tikzpicture}
-	\end{center}
-%	\begin{center}
-	%\mbox{
-%		\parbox[b][2cm][c]{3cm}{
-%			\textcolor{textcol}{I regularly use Meteor, Git and Webstorm for my dev projects.}
-%		}\hspace{12pt}
-%		\bubbles{6/Webstorm, 5/Git, 5/Sourcetree, 4/Linux, 3/Office}{\cvsection{Technologies}}		
-%	}
-%	\end{center}
-%---------------------------------------------------------------------------------------
-%	ACTIVITIES
-%----------------------------------------------------------------------------------------
 	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
+		\end{tikzpicture}
+	\end{center}
+	%	\begin{center}
+	%\mbox{
+	%		\parbox[b][2cm][c]{3cm}{
+	%			\textcolor{textcol}{I regularly use Meteor, Git and Webstorm for my dev projects.}
+	%		}\hspace{12pt}
+	%		\bubbles{6/Webstorm, 5/Git, 5/Sourcetree, 4/Linux, 3/Office}{\cvsection{Technologies}}		
+	%	}
+	%	\end{center}
+	%---------------------------------------------------------------------------------------
+	%	ACTIVITIES
+	%----------------------------------------------------------------------------------------
+		
 	\vspace{0pt}
 	\cvsect{Fungus app}{0.49}{thirdcol}{textcol}\\[20pt]
 	\mbox{
-		
+				
 		% FACT BUBBLE
 		\parbox[b][3.5cm][c]{3.2cm}{
 			\factbubble{\textcolor{sectcol}{\mbox{\nolinebreak{\textbf{500 000}} }}\\\small{\textcolor{sectcol}{\textbf{downloads}}}}{0.85}{maincol}{sectcol}{thirdcol}
 			\textcolor{textcol}{\textbf{    Google Play}}
 		}
-
+		
 		% TEXT BOX
 		\parbox[b][3cm][c]{2.9cm}{
 			\textcolor{textcol}{I started a start up specializing in image recognition. We are developing an application that classifies mushroom species based on the image and other metadata. The team currently has 3 members. }
 		}
-
+		
 		% SQUARE BARS
 		\squares{25/1 request per second ,25/High availibility, 25/Advanced AI,25/10s of TB analyzed}{1}
 	}
@@ -477,57 +499,57 @@
 	\end{center}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
-%---------------------------------------------------------------------------------------
-%	EXPERIENCE / EDUCATION
-%----------------------------------------------------------------------------------------
-\vspace{56pt}
-\cvsect{Experience and Education}{0.4}{thirdcol}{textcol}\\[16pt]
-
-\hspace{60pt}\mbox{\legend{Experience}{1.8cm}{maincol} \legend{Projects}{1.4cm}{secondcol} \legend{Education}{1.5cm}{thirdcol}}
-\vspace{-50pt}
-\begin{center}
-
-% TIMELINE
-\begin{cvtimeline}{2014}{2021}{21.6}%{\linewidth}
-
-
-
-\linevent{6/2014}{12/2014}{PHP Programmer}{}
-    {Bestone Service}
-    {maincol}{June 2014}
-
-\linevent{6/2015}{8/2015}{Hardware programmer}{}
-    {Codasip}
-    {maincol}{June 2015}
-
-\linevent{1/2015}{1/2017}{Bachelors's Degree}{}
-    {BUT}
-    {thirdcol}{May 2015}
-
-\linevent{11/2016}{12/2020}{Developer}{}
-    {Mushroom Identification app}{secondcol}{March 2017}
-
-\linevent{5/2017}{6/2017}{Ing. Graduation}{}
-    {BUT}{thirdcol}{May 2017}
-
-\linevent{10/2017}{1/2018}{Python programmer}{}
-    {IXPERTA}{maincol}{August 2017}
-
-\linevent{3/2018}{2/2019}{AI Programmer}{}
-    {IXPERTA}{maincol}{January 2018}
-    
-\linevent{2/2019}{6/2020}{Software Engineer}{}
-    {Vacuumlabs}{maincol}{February 2019}    
-
-\linevent{12/2019}{12/2020}{Founder and Developer}{}
-    {Fungus app}{secondcol}{March 2019}
-
-\linevent{6/2020}{12/2020}{Computer vision engineer}{}
-    {SANEZOO}{maincol}{June 2020}
-     
-\end{cvtimeline}
-%\tiny @BUT = Brno University of Technology
-\end{center}
+	%---------------------------------------------------------------------------------------
+	%	EXPERIENCE / EDUCATION
+	%----------------------------------------------------------------------------------------
+	\vspace{56pt}
+	\cvsect{Experience and Education}{0.4}{thirdcol}{textcol}\\[16pt]
+	
+	\hspace{60pt}\mbox{\legend{Experience}{1.8cm}{maincol} \legend{Projects}{1.4cm}{secondcol} \legend{Education}{1.5cm}{thirdcol}}
+	\vspace{-50pt}
+	\begin{center}
+		
+		% TIMELINE
+		\begin{cvtimeline}{2014}{2021}{21.6}%{\linewidth}
+			
+			
+			
+			\linevent{6/2014}{12/2014}{PHP Programmer}{}
+			{Bestone Service}
+			{maincol}{June 2014}
+			
+			\linevent{6/2015}{8/2015}{Hardware programmer}{}
+			{Codasip}
+			{maincol}{June 2015}
+			
+			\linevent{1/2015}{1/2017}{Bachelors's Degree}{}
+			{BUT}
+			{thirdcol}{May 2015}
+			
+			\linevent{11/2016}{12/2020}{Developer}{}
+			{Mushroom Identification app}{secondcol}{March 2017}
+			
+			\linevent{5/2017}{6/2017}{Ing. Graduation}{}
+			{BUT}{thirdcol}{May 2017}
+			
+			\linevent{10/2017}{1/2018}{Python programmer}{}
+			{IXPERTA}{maincol}{August 2017}
+			
+			\linevent{3/2018}{2/2019}{AI Programmer}{}
+			{IXPERTA}{maincol}{January 2018}
+			    
+			\linevent{2/2019}{6/2020}{Software Engineer}{}
+			{Vacuumlabs}{maincol}{February 2019}    
+			
+			\linevent{12/2019}{12/2020}{Founder and Developer}{}
+			{Fungus app}{secondcol}{March 2019}
+			
+			\linevent{6/2020}{12/2020}{Computer vision engineer}{}
+			{SANEZOO}{maincol}{June 2020}
+			     
+		\end{cvtimeline}
+		%\tiny @BUT = Brno University of Technology
+	\end{center}
 \end{minipage}
 
 \newpage
@@ -544,121 +566,121 @@
 % Environment to hold a new list of entries
 \newenvironment{entrylist}{
 	\begin{longtable}[H]{l l}
-}{
+		}{ 
 	\end{longtable}
 }
 
 \newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
 	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
 		\textcolor{thirdcol}{#1} % Leftmost entry date(s) text
-
 		
+				
 	}%
 	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
 		\textbf{\textcolor{thirdcol}{#2}}% Entry heading text
 		\hfill% Horizontal whitespace
 		{\footnotesize \textbf{\textcolor{thirdcol}{#3}}}\\% Right-aligned entry qualifier text
 		\textcolor{thirdcol}{#4} % Entry description text
-	}\\\\}
-
-% Command to output a separator slash between lists, e.g. '  /  '
-\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
-
-\vfill
-
-\cvsect{Projects}{0.49}{thirdcol}{textcol}\\[20pt]
-% TODO add highlights, links
-\begin{entrylist}
-	\entry
+		}\\\\}
+	
+	% Command to output a separator slash between lists, e.g. '  /  '
+	\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+	
+	\vfill
+	
+	\cvsect{Projects}{0.49}{thirdcol}{textcol}\\[20pt]
+	% TODO add highlights, links
+	\begin{entrylist}
+		\entry
 		{6/2020 -- Present}
 		{Sanezoo Unity}
 		{Sanezoo}
 		{I was working on creating complex AI driven system for visual QA in industry. 
-		My responsibility was creation and optimisation of the core component, that integrated our algorithms to a product deployable to the customers. 
-		\\ 
-		\texttt{C++}\slashsep
-		\texttt{Tensorflow}
+			My responsibility was creation and optimisation of the core component, that integrated our algorithms to a product deployable to the customers. 
+			\\ 
+			\texttt{C++}\slashsep
+			\texttt{Tensorflow}
 		}
-	\entry
+		\entry
 		{2/2019 -- present}
 		{Fungus App}
 		{My project}
 		{I created a mobile app that identifies mushrooms based on
-		image. It has more than 300,000 downloads now.
-		\\ 
-		\texttt{Python}\slashsep
-		\texttt{React native}\slashsep
-		\texttt{Tensorflow}}
-	\entry
+			image. It has more than 300,000 downloads now.
+			\\ 
+			\texttt{Python}\slashsep
+			\texttt{React native}\slashsep
+			\texttt{Tensorflow}}
+		\entry
 		{2/2019 -- 3/2020}
 		{StockTwits.com}
 		{Vacuumlabs, Stocktwits.com}
 		{As a part of a four-member frontend team I was working on the development, maintenance
-		and refactoring of a social network dedicated to the Stock Exchange. Apart from
-		developing new features we significantly improved the code quality.  
-		\\ 
-		\texttt{React}\slashsep
-		\texttt{Cypress}}% TODO remove
-	\entry
+			and refactoring of a social network dedicated to the Stock Exchange. Apart from
+			developing new features we significantly improved the code quality.  
+			\\ 
+			\texttt{React}\slashsep
+			\texttt{Cypress}}% TODO remove
+		\entry
 		{5/2018 -- 2/2019}
 		{Industrial Vision startup}
 		{Ixperta}
 		{As a backend team, we were creating a new system of visual quality control in the
-		industry. The system had to be highly reliable as the whole production line was stopped
-		when an error occurred. I was responsible for the computer vision part; doing pre-sales
-		experiments, and integrating and tweaking existing image processing algorithms.
-		\\ 
-		\texttt{Docker Swarm}\slashsep
-		\texttt{Ansible}\slashsep
-		\texttt{Microservices architecture}\slashsep
-		\texttt{Tensorflow}\slashsep
-		\texttt{Python}}
-	\entry
+			industry. The system had to be highly reliable as the whole production line was stopped
+			when an error occurred. I was responsible for the computer vision part; doing pre-sales
+			experiments, and integrating and tweaking existing image processing algorithms.
+			\\ 
+			\texttt{Docker Swarm}\slashsep
+			\texttt{Ansible}\slashsep
+			\texttt{Microservices architecture}\slashsep
+			\texttt{Tensorflow}\slashsep
+			\texttt{Python}}
+		\entry
 		{12/2017 -- 4/2018}
 		{Škoda Auto testing}
 		{Ixperta, Škoda Auto}
 		{I was leading a team of three engineers. We were responsible for creating a testing
-		framework for a team of 20 manual testers to be able to create and manage test cases
-		in a web UI. Real cars, car parts, simulators and the company web application were
-		connected to our system.
-		We were fully responsible for the design of the product, selected technologies and dev-
-		ops. I was responsible for the communication with the customer and addressing their
-		feedback to develop an application to match their needs. I also trained the manual
-		testers and saved them many hours of the most monotonous work every day by
-		allowing them to concentrate on more sophisticated test cases. 
-		\\ 
-		\texttt{Python}\slashsep
-		\texttt{Selenium}\slashsep
-		\texttt{PostgreSQL}\slashsep
-		\texttt{Docker}
+			framework for a team of 20 manual testers to be able to create and manage test cases
+			in a web UI. Real cars, car parts, simulators and the company web application were
+			connected to our system.
+			We were fully responsible for the design of the product, selected technologies and dev-
+			ops. I was responsible for the communication with the customer and addressing their
+			feedback to develop an application to match their needs. I also trained the manual
+			testers and saved them many hours of the most monotonous work every day by
+			allowing them to concentrate on more sophisticated test cases. 
+			\\ 
+			\texttt{Python}\slashsep
+			\texttt{Selenium}\slashsep
+			\texttt{PostgreSQL}\slashsep
+			\texttt{Docker}
 		}
-	\entry
+		\entry
 		{6/2017 -- 12/2017}
 		{Screenix}
 		{Ixperta, Agrofert}
 		{We were a team of four engineers. We created a tool for checking sanctioned people
-		and organizations to comply with Czech international business law. There are public
-		lists of terrorists, authored by the UN, governments and ONGs, that are organized in
-		many different ways, each providing quite limited information. We had to tackle the
-		fuzzy nature of the problem as many sanctioned subjects used different pseudonyms;
-		and information was uncertain, incomplete, and possibly faked by the checked
-		business partners.
-		\\ 
-		\texttt{Python}\slashsep
-		\texttt{Docker}
+			and organizations to comply with Czech international business law. There are public
+			lists of terrorists, authored by the UN, governments and ONGs, that are organized in
+			many different ways, each providing quite limited information. We had to tackle the
+			fuzzy nature of the problem as many sanctioned subjects used different pseudonyms;
+			and information was uncertain, incomplete, and possibly faked by the checked
+			business partners.
+			\\ 
+			\texttt{Python}\slashsep
+			\texttt{Docker}
 		}
-\end{entrylist}
-
-
-
-\vfill
-%============================================================================%
-%
-%
-%
-%	DOCUMENT END
-%
-%
-%
-%============================================================================%
+	\end{entrylist}
+	
+	
+	
+	\vfill
+	%============================================================================%
+	%
+	%
+	%
+	%	DOCUMENT END
+	%
+	%
+	%
+	%============================================================================%
 \end{document}
