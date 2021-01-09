@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  8 JAN 2021 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  9 JAN 2021 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,36 +1126,36 @@ LaTeX Warning: Unused global option(s):
 (./dominik.aux)
 \openout1 = `dominik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 335.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 335.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 336.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 336.
 
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    ... okay on input line 336.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 336.
+LaTeX Font Info:    ... okay on input line 336.
 LaTeX Font Info:    Try loading font information for T1+Raleway-TLF on input li
-ne 335.
+ne 336.
 
 (/usr/share/texlive/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 335.
+(Font)              scaled to size 10.0pt on input line 336.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1220,7 +1220,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 335.
+Package hyperref Info: Link coloring OFF on input line 336.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1230,9 +1230,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 335.
-LaTeX Info: Redefining \pageref on input line 335.
-LaTeX Info: Redefining \nameref on input line 335.
+LaTeX Info: Redefining \ref on input line 336.
+LaTeX Info: Redefining \pageref on input line 336.
+LaTeX Info: Redefining \nameref on input line 336.
 
 (./dominik.out) (./dominik.out)
 \@outlinefile=\write4
@@ -1240,161 +1240,151 @@ LaTeX Info: Redefining \nameref on input line 335.
 
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 348.
+(Font)              <7> on input line 349.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 348.
+(Font)              <5> on input line 349.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 352.
+(Font)              scaled to size 29.86pt on input line 353.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 29.86pt on input line 352.
+(Font)              scaled to size 29.86pt on input line 353.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 352.
+(Font)              scaled to size 14.4pt on input line 353.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 352.
+(Font)              scaled to size 14.4pt on input line 353.
 
-Overfull \hbox (139.96022pt too wide) in paragraph at lines 352--352
+Overfull \hbox (139.96022pt too wide) in paragraph at lines 353--353
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 
  []
 
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 359.
+line 360.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2015/07/30 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 359.
+line 360.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2015/07/30 Font definitions for U/fontawesomeone.
 )
-Overfull \hbox (6.19743pt too wide) in paragraph at lines 359--359
+Overfull \hbox (6.19743pt too wide) in paragraph at lines 360--360
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 
  []
 
 
-Overfull \hbox (6.63138pt too wide) in alignment at lines 348--361
+Overfull \hbox (6.63138pt too wide) in alignment at lines 349--362
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 364.
+(Font)              scaled to size 9.0pt on input line 365.
 <dominik.png, id=9, 461.725pt x 461.725pt>
 File: dominik.png Graphic file (type png)
  <use dominik.png>
-Package pdftex.def Info: dominik.png used on input line 390.
+Package pdftex.def Info: dominik.png used on input line 391.
 (pdftex.def)             Requested size: 106.1945pt x 106.1945pt.
 
-Overfull \hbox (13.70016pt too wide) in paragraph at lines 390--390
+Overfull \hbox (13.70016pt too wide) in paragraph at lines 391--391
 [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 390.
+(Font)              <9> on input line 391.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 390.
+(Font)              <6> on input line 391.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 390.
+(Font)              scaled to size 20.74pt on input line 391.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 390.
+(Font)              scaled to size 20.74pt on input line 391.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 390.
+(Font)              scaled to size 9.0pt on input line 391.
 
-Underfull \hbox (badness 3503) in paragraph at lines 390--390
+Underfull \hbox (badness 3503) in paragraph at lines 391--391
 [][]\T1/Raleway-TLF/m/n/9 I am en-thu-si-atist for
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 390--390
+Underfull \hbox (badness 2617) in paragraph at lines 391--391
 \T1/Raleway-TLF/m/n/9 AI and com-puter vi-
  []
 
 
-Overfull \hbox (1.87268pt too wide) in paragraph at lines 390--391
+Overfull \hbox (1.87268pt too wide) in paragraph at lines 391--392
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
 
  []
 
 
-Overfull \hbox (84.98708pt too wide) in paragraph at lines 430--430
+Overfull \hbox (84.98708pt too wide) in paragraph at lines 431--431
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
 
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 456--456
+Underfull \hbox (badness 1152) in paragraph at lines 457--457
 [][]\T1/Raleway-TLF/m/n/9 I like to work in ag-ile teams
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/Raleway-TLF/m/n/9 re-views, testable code etc.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
-[][]\T1/Raleway-TLF/m/n/9 I started a start
+Underfull \hbox (badness 4001) in paragraph at lines 493--493
+\T1/Raleway-TLF/m/n/9 are de-vel-op-ing an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
-\T1/Raleway-TLF/m/n/9 up spe-cial-iz-ing in
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+\T1/Raleway-TLF/m/n/9 ap-pli-ca-tion that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
-\T1/Raleway-TLF/m/n/9 im-age recog-ni-tion.
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 492--492
-\T1/Raleway-TLF/m/n/9 an ap-pli-ca-tion that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \T1/Raleway-TLF/m/n/9 clas-si-fies mush-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \T1/Raleway-TLF/m/n/9 room species
  []
 
 
-Overfull \hbox (28.57751pt too wide) in paragraph at lines 476--493
+Overfull \hbox (28.57751pt too wide) in paragraph at lines 477--494
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
@@ -1411,14 +1401,14 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 513.
+(Font)              scaled to size 12.0pt on input line 514.
 
-Overfull \hbox (2.35808pt too wide) in paragraph at lines 550--552
+Overfull \hbox (2.35808pt too wide) in paragraph at lines 551--553
  [] 
  []
 
 
-Overfull \hbox (24.68044pt too wide) in paragraph at lines 369--554
+Overfull \hbox (24.68044pt too wide) in paragraph at lines 370--555
 []$[]$ $[]$ $[]$ 
  []
 
@@ -1434,15 +1424,15 @@ Overfull \vbox (5.0pt too high) has occurred while \output is active []
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./dominik.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 591--593
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 603.
+(Font)              scaled to size 8.0pt on input line 604.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 603.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 603.
+(Font)              scaled to size 8.0pt on input line 604.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 604.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1460,21 +1450,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.685 \end{document}
+l.686 \end{document}
                      [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 685.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 685.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
  (./dominik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 685.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 685.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 686.
 Package rerunfilecheck Info: File `dominik.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 685.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 686.
  ) 
 Here is how much of TeX's memory you used:
  20994 strings out of 493029
  403517 string characters out of 6136234
- 521901 words of memory out of 5000000
+ 521913 words of memory out of 5000000
  24107 multiletter control sequences out of 15000+600000
  168883 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1488,7 +1478,7 @@ fonts/enc/dvips/raleway/a_yqxcf3.enc}</usr/share/texlive/texmf-dist/fonts/type1
 impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/i
 mpallari/raleway/Raleway-Regular.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sftt0900.pfb>
-Output written on dominik.pdf (2 pages, 423385 bytes).
+Output written on dominik.pdf (2 pages, 423367 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
