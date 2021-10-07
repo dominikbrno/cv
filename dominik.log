@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  25 JAN 2021 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  7 OCT 2021 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,18 +1309,8 @@ LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 397.
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[][]\T1/Raleway-TLF/m/n/9 I am en-thu-si-ast for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\T1/Raleway-TLF/m/n/9 AI and com-puter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\T1/Raleway-TLF/m/n/9 vi-sion de-vel-oper al-
+Underfull \hbox (badness 2617) in paragraph at lines 397--397
+\T1/Raleway-TLF/m/n/9 AI and com-puter vi-
  []
 
 
@@ -1354,8 +1344,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 463--463
  []
 
 
+Underfull \hbox (badness 1953) in paragraph at lines 463--463
+\T1/Raleway-TLF/m/n/9 al-low-ing for pro-duc-tiv-ity and
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 463--463
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+\T1/Raleway-TLF/m/n/9 The as-pects I en-joy most
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 463--463
+\T1/Raleway-TLF/m/n/9 in pro-gram-ming are refac-tor-
  []
 
 
@@ -1364,23 +1369,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--499
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 499--499
-\T1/Raleway-TLF/m/n/9 are de-vel-op-ing an
+Underfull \hbox (badness 3271) in paragraph at lines 499--499
+[][]\T1/Raleway-TLF/m/n/9 I founded a com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-\T1/Raleway-TLF/m/n/9 ap-pli-ca-tion that
+Underfull \hbox (badness 7740) in paragraph at lines 499--499
+\T1/Raleway-TLF/m/n/9 puter vi-sion start-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-\T1/Raleway-TLF/m/n/9 clas-si-fies mush-
+Underfull \hbox (badness 4713) in paragraph at lines 499--499
+\T1/Raleway-TLF/m/n/9 up. We are de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-\T1/Raleway-TLF/m/n/9 room species
+Underfull \hbox (badness 3492) in paragraph at lines 499--499
+\T1/Raleway-TLF/m/n/9 vel-op-ing an ap-pli-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 499--499
+\T1/Raleway-TLF/m/n/9 mush-room species
  []
 
 
@@ -1469,7 +1479,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 693.
 Here is how much of TeX's memory you used:
  20995 strings out of 493029
  403514 string characters out of 6136234
- 521909 words of memory out of 5000000
+ 521932 words of memory out of 5000000
  24107 multiletter control sequences out of 15000+600000
  168883 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1483,7 +1493,7 @@ fonts/enc/dvips/raleway/a_yqxcf3.enc}</usr/share/texlive/texmf-dist/fonts/type1
 impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/i
 mpallari/raleway/Raleway-Regular.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sftt0900.pfb>
-Output written on dominik.pdf (2 pages, 242617 bytes).
+Output written on dominik.pdf (2 pages, 242659 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
