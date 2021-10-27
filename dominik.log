@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  7 OCT 2021 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  27 OCT 2021 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,7 +1493,7 @@ fonts/enc/dvips/raleway/a_yqxcf3.enc}</usr/share/texlive/texmf-dist/fonts/type1
 impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/i
 mpallari/raleway/Raleway-Regular.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sftt0900.pfb>
-Output written on dominik.pdf (2 pages, 242659 bytes).
+Output written on dominik.pdf (2 pages, 242654 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
